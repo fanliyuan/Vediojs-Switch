@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link href="http://vjs.zencdn.net/5.0.2/video-js.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="videojs-resolution-switcher.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/5.0.2/video.js"></script>
+	<!-- If you'd like to support IE8 -->
+	<script src="http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>
+	<script src="videojs-resolution-switcher.js"></script>
+</head>--
+
+<body>
+  <video id="video" class="video-js" controls preload="auto" width="640" height="264"
+  poster="" data-setup='{}'>
+        <source src="http://2.bp.blogspot.com/IYQJ5HFBpzF6ehnFo4516A1UP82M3BmbYtejfNrhdw=m18" type='video/mp4' label='SD' />
+   <source src="http://2.bp.blogspot.com/IYQJ5HFBpzF6ehnFo4516A1UP82M3BmbYtejfNrhdw=m22" type='video/mp4' label='HD'/>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+<script>
+    videojs('video').videoJsResolutionSwitcher()
+  </script>
+
+
+
+
+</body>
+</html>
